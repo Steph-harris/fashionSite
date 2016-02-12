@@ -1,0 +1,15 @@
+{
+  "name": "fashion_site",
+  "version": "1.0.0",
+  "description": "Page for Jackie Minieri fashion line",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Stephanie Harris",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
