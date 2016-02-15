@@ -1,0 +1,38 @@
+body {
+  background: url("/images/underwater.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+  font-family: 'Tangerine', cursive;
+  font-weight: 700;
+  background-color: rgba(0,0,0,0.6);
+}
+.side-nav {
+  background-color: rgba(0,0,0,0.9);
+}
+nav ul a {
+  transition: background-color .3s;
+  color: #08C1C1;
+  font-size: 2rem;
+}
+.side-nav a {   
+  color: teal; 
+  font-size: 2rem;
+  width: 100%;
+}
+h1 {
+  padding: 15% 0;
+  font-size: 8em;
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-weight: 700;
+}
+
+.about {
+  padding: 5% 10%;
+  background-color: rgba(255,255,255,.3);
+}
