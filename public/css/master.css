@@ -27,36 +27,66 @@ nav ul a {
 h1 {
   padding: 15% 0;
   font-size: 8em;
+}
+
+h1, h2 {
   text-align: center;
   font-family: 'Tangerine', cursive;
   font-weight: 700;
 }
 
-@keyframes ex4 { /* CSS3 */
+@keyframes transSelect { /* CSS3 */
   0%   {color: #efefef;}
   35%  {color: #b6b6b6;}
   70% {color: #08C1C1;}
   100%   {color: #efefef;}
 }
-@-moz-keyframes ex4 { /* Firefox */
+@-moz-keyframes transSelect { /* Firefox */
   0%   {color: #efefef;}
   35%  {color: #b6b6b6;}
   70% {color: #08C1C1;}
   100%   {color: #efefef;}
 }
-@-webkit-keyframes ex4 { /* Webkit */
+@-webkit-keyframes transSelect { /* Webkit */
   0%   {color: #efefef;}
   35%  {color: #b6b6b6;}
   70% {color: #08C1C1;}
   100%   {color: #efefef;}
 }
-.ex4 {
-  animation:         ex4 30s infinite; /* CSS3 */
-  -moz-animation:    ex4 30s infinite; /* Firefox */
-  -webkit-animation: ex4 30s infinite; /* Webkit */
+.transSelect {
+  animation:         transSelect 30s infinite; /* CSS3 */
+  -moz-animation:    transSelect 30s infinite; /* Firefox */
+  -webkit-animation: transSelect 30s infinite; /* Webkit */
 }
 
 .about {
   padding: 5% 10%;
   background-color: rgba(255,255,255,.3);
+}
+.edu {
+  background: url("/images/turtle.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20% 10%;
+  color: #01628D;
+}
+.card-panel h4, .card-panel h5 {
+  text-align: center;
+}
+.card-panel ul li {
+  list-style-type: circle;
+}
+.partner {
+  padding: 5% 10%;
+  color: #26A69A;
+  background-color: rgba(0,0,0,.6);
+}
+.footer-copyright ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.footer-copyright ul li a >i:hover{
+  color: silver;
 }
