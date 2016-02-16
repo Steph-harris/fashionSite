@@ -34,18 +34,21 @@ h1 {
 
 @keyframes ex4 { /* CSS3 */
   0%   {color: #efefef;}
-  50%  {color: #b6b6b6;}
-  100% {color: #08C1C1;}
+  35%  {color: #b6b6b6;}
+  70% {color: #08C1C1;}
+  100%   {color: #efefef;}
 }
 @-moz-keyframes ex4 { /* Firefox */
   0%   {color: #efefef;}
-  50%  {color: #b6b6b6;}
-  100% {color: #08C1C1;}
+  35%  {color: #b6b6b6;}
+  70% {color: #08C1C1;}
+  100%   {color: #efefef;}
 }
 @-webkit-keyframes ex4 { /* Webkit */
   0%   {color: #efefef;}
-  50%  {color: #b6b6b6;}
-  100% {color: #08C1C1;}
+  35%  {color: #b6b6b6;}
+  70% {color: #08C1C1;}
+  100%   {color: #efefef;}
 }
 .ex4 {
   animation:         ex4 30s infinite; /* CSS3 */
