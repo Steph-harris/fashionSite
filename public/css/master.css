@@ -78,6 +78,9 @@ h1, h2 {
 .card-panel h4, .card-panel h5 {
   text-align: center;
 }
+.card-panel h5 {
+    font-style: italic;
+}
 .card-panel ul li {
   list-style-type: circle;
 }
