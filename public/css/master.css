@@ -19,14 +19,20 @@ nav ul a {
   color: #08C1C1;
   font-size: 2rem;
 }
-.side-nav a {   
-  color: teal; 
+nav .brand-logo.right {
+  padding-right: 15px;
+}
+nav .brand-logo.right:hover {
+  color:#08C1C1;;
+}
+.side-nav a {
+  color: teal;
   font-size: 2rem;
   width: 100%;
 }
 h1 {
-  padding: 15% 0 25%;
-  font-size: 8em;
+  padding: 15% 3% 25%;
+  font-size: 10em;
 }
 
 h1, h2 {
@@ -89,11 +95,21 @@ h1, h2 {
   color: #26A69A;
   background-color: rgba(0,0,0,.6);
 }
+#contact {
+  width: 85%;
+}
 .copy {
   text-align: right;
   margin-bottom: 0;
   padding: 20px;
-  background-color: rgba(0,0,0,.2); 
+  background-color: rgba(0,0,0,.2);
+}
+.copy a, .copy a:visited {
+  color: #26A69A;
+}
+.copy a:hover{
+  color: #FEFFE3;
+  text-decoration: underline;
 }
 .footer-copyright ul li {
   display: inline;
