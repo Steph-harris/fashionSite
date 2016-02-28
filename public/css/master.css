@@ -30,9 +30,13 @@ nav .brand-logo.right:hover {
   font-size: 2rem;
   width: 100%;
 }
-h1 {
+.mainH1 {
   padding: 15% 3% 25%;
   font-size: 10em;
+}
+
+@media only screen and (max-width: 420px) {
+  .mainH1  { font-size: 8em; }
 }
 
 h1, h2 {
